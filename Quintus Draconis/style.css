@@ -166,6 +166,17 @@ footer {
         padding-bottom: 5px;
         margin-left: 2px;
     }
+
+    .contact {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact__item {
+        height: 50px;
+        width: 33%;
+    }
         
 }
 
@@ -183,4 +194,9 @@ footer {
     a {
         font-size: 30px;
     }
+
+    .contact__item {
+        height: 100px;
+    }
+
 }
