@@ -14,21 +14,21 @@
     <header>
         <img class="header__logo" src="img/logo.png" alt="Logo de l'association">
         <nav class="header__nav">
-            <button class="header__nav__item" type="button">
-                <a href="index.html" >L'association</a>
-            </button>
-            <button class="header__nav__item" type="button">
+            <div class="header__nav__item">
+                <a href="index.html" >L'association</a>                
+            </div>
+            <div class="header__nav__item">
                 <a href="jdr.html" >Le JDR</a>
-            </button>
-            <button class="header__nav__item" type="button">
-                <a href="activities.html" >Nos activités</a>
-            </button>
-            <button class="header__nav__item" type="button">
+            </div>
+            <div class="header__nav__item">
+                <a href="activities.html" >Nos activités</a>              
+            </div>
+            <div class="header__nav__item">
                 <a href="event.html" >Evènements</a>
-            </button>
-            <button class="header__nav__item" type="button" id="nav-contact">
+            </div>
+            <div class="header__nav__item" id="nav-contact">
                 <a href="contact.html">Contact</a>
-            </button>
+            </div>            
         </nav>
     </header>    
     <main>
@@ -85,17 +85,19 @@
                 <h3 class="aside__subtitle">Adresse</h3>
                 <p>23 rue des Rôlistes 02100 Saint-Quentin</p>
                 <h3 class="aside__subtitle">Contacts</h3>
-                <button class="contact__item" type="button">
-                    <a href="tel:+33666666666">Par téléphone</a>
-                </button>
-                <button class="contact__item" type="button">
-                    <a href="mailto:quintusdraconis@mailbidon.net">Par mail</a>
-                </button>
-                <button class="contact__item" type="button">
-                    <a href="https://www.facebook.com/QuintusDraconis" target="_blank">Sur Facebook</a>
-                </button>
+                <div class="contact__container">
+                    <div class="contact__item">
+                        <a class="bi bi-telephone-fill" href="tel:+33666666666"> Par téléphone</a>
+                    </div>
+                    <div class="contact__item">
+                        <a class="bi bi-envelope-fill" href="mailto:quintusdraconis@mailbidon.net"> Par mail</a>
+                    </div>
+                    <div class="contact__item">
+                        <a class="bi bi-facebook" href="https://www.facebook.com/QuintusDraconis" target="_blank"> Sur Facebook</a>
+                    </div>                
+                </div>
             </div>
-        </aside> 
+        </aside>
     </main>
     <footer>
         <p class="footer__content">Quintus Draconis - Tous droits réservés</p>
