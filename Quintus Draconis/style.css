@@ -4,14 +4,14 @@ html {
 
 body {
     margin: 5px;
-    background-color: #f2eedf;
+    background-color: #F2EEDF;
 }
 
 img {
     width: 80%;
 }
 
-a {
+a {    
     text-decoration: none;
     color: black;
     font-weight: bolder;
@@ -57,7 +57,7 @@ header {
 .header__nav__item :hover {
     border-radius: 10px;
     box-shadow: 2px 2px 10px black; 
-    background-color: #f2eedf;    
+    background-color: #F2EEDF;    
 }
 
 main {
@@ -66,18 +66,17 @@ main {
 
 h1, h2 {
     color: #FAD7A0;
-    box-shadow: 2px 2px 10px gray;     
+    box-shadow: 2px 2px 10px gray;
+    background-color: #9B9071; 
+    text-align: center;  
 }
 
 h1 {
-    text-align: center;    
-    background-color: #9b9071;
+    text-align: center; 
     text-shadow: 4px 4px 4px black;
 }
 
-h2 {
-    text-align: center;
-    background-color: #9b9071;    
+h2 {            
     width: 80%;
     text-shadow: 2px 2px 2px black;
 }
@@ -112,11 +111,14 @@ article {
     border-radius: 10px;
     padding: 3px;
     box-shadow: 2px 2px 10px black;
-    background-color: #81513a;
+    background-color: #81513A;
 }
 
 .contact__item :hover {
-    background-color: #99765a;
+    background-color: #99765A;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 2px 2px 10px black;
 }
 
 aside {
@@ -166,11 +168,7 @@ footer {
     
 }
 
-@media screen and (min-width : 800px) {
-
-    html {
-        font-size: 25px;
-    }
+@media screen and (min-width : 800px) {    
 
     img {
         max-width: 100%;
@@ -200,11 +198,20 @@ footer {
     
 }
 
-@media screen and (min-width : 1000px) {     
+@media screen and (min-width : 1000px) { 
+    
+    html {
+        font-size: 20px;
+    }
 
     #nav-contact {
         display: none;
-    }    
+    }  
+    
+    .header__nav__item {
+        width: 200px;
+        margin-right: 10px;
+    }
 
     main {
         display: flex;
@@ -231,16 +238,26 @@ footer {
         margin-left: 2px;
     }
 
+    .contact__item {
+        text-align: center;
+        font-size: 14px;
+        height: 40px;
+    }
+
 }
 
 @media screen and (min-width : 1920px) {
 
     html {
         font-size: 30px;
+    }  
+
+    .header__nav__item {
+        width: 200px; 
     }    
 
-    a {
-        font-size: 30px;
+    .contact__item {
+        font-size: 20px;
     }
 
 }
