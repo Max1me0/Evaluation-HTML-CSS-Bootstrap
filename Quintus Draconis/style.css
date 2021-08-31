@@ -17,8 +17,9 @@ a {
     font-weight: bolder;
 }
 
-.link {
-    text-decoration: ;
+.article__link {
+    text-decoration: underline;
+    color: blue;
 }
 
 iframe {
@@ -103,7 +104,8 @@ article {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .contact__item {
