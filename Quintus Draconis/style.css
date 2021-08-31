@@ -17,6 +17,10 @@ a {
     font-weight: bolder;
 }
 
+.link {
+    text-decoration: ;
+}
+
 iframe {
     width: 300px;
     height: 300px;
@@ -83,6 +87,10 @@ article {
     padding: 4px;
     align-items: center;
     text-align: justify;    
+}
+
+.article__content {
+    padding: 10px;
 }
 
 .article__media {
